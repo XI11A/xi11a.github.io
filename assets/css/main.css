@@ -1637,6 +1637,24 @@ input, select, textarea {
   color: red;
 }
 
+@-webkit-keyframes love {
+  to {
+    -webkit-transform: scale(1.5);
+  }
+}
+
+@-moz-keyframes love {
+  to {
+    -moz-transform: scale(1.5);
+  }
+}
+
+@keyframes love {
+  to {
+    transform: scale(1.5);
+  }
+}
+
 /* Footer */
 
 	#footer {
